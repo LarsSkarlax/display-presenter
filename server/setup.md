@@ -1,10 +1,14 @@
 # Setup Server
 
-## IP-Adresse
+## IP-Adresse/Port
 
 Der Server sollte routerseitig folgende IP-Adresse zugewiesen bekommen werden:
 
     192.68.2.42
+
+Als Port sollte in der Config folgender festgelegt werden:
+
+    8000
 
 ## Dependencies
 
