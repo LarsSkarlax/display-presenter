@@ -1,3 +1,95 @@
+# === IDEs ===
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs (IntelliJ, CLion, PyCharm, etc.)
+.idea/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcodeproj/
+*.xcuserdata/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Visual Studio (falls mal C#/Unity etc.)
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# === Betriebssystem-spezifisch ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+Icon?
+
+# === Sonstiges ===
+*.log
+*.tmp
+*.swp
+*.bak
+*.orig
+*~
+*.lock
+
+# === Node.js (falls relevant) ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Python (falls relevant) ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+
+# === C/C++ Build-Objekte ===
+*.o
+*.out
+*.obj
+*.a
+*.so
+*.exe
+
+# === Backup-Dateien ===
+*.old
+*.save
+*.backup
+*.bkp
+
+# === Build-Verzeichnisse (z. B. CMake, Make) ===
+build/
+cmake-build-*/
+CMakeFiles/
+Makefile
+CMakeCache.txt
+compile_commands.json
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
